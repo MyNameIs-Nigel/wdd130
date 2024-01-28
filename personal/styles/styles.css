@@ -1,0 +1,184 @@
+/*
+COLORS: 
+
+D9DCD6 - Titanium White
+2E4057 - Charcoal
+083D77 - Yale Blue
+44633F - Hunter Green
+379392 - Dark Cyan
+
+*/
+html {
+    scroll-behavior: smooth;
+}
+
+
+img.logo {
+    width: 60px;
+}
+
+body {
+    margin: 0;
+    background-color: #2E4057;
+}
+
+#topnav {
+    background-color: #D9DCD6;
+    width: 100%;
+    margin: 0;
+}
+
+nav {
+    margin: auto;
+    margin-left: 40px;
+    padding: 6px 12px;
+    width: 30%;
+    display: flex; 
+    align-items: center;
+    justify-content: space-around; 
+}
+
+nav a.navlink{
+    background-color: #083D77;
+    text-decoration: none;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 6px;
+}
+
+nav a.logo {
+    text-decoration: none;
+}
+
+
+
+nav a.navlink:hover {
+    background-color: #2E4057;
+}
+
+#banner {
+    width: 100%;
+    height: 800px;
+    background-color: #2E4057;
+    background-image: url(../../img/gradient-pontiac.jpg);
+    background-size: cover;
+    background-position: bottom;
+}
+div.banner {
+    margin: auto;
+    margin-left: 200px;
+    width: 500px;
+    padding-top: 100px;
+}
+
+
+section.banner {
+    padding-left: 8px;
+    border-left: 4px solid white;
+    color: white;
+    padding: 0 0 0 8px;
+}
+
+.pad {
+    padding: inherit;
+}
+
+h1.pad {
+    font-size: 80px;
+    margin-bottom: 0;
+}
+
+p.pad {
+    font-size: 24px;
+}
+
+a.banner {
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    background-color: #44633F;
+    padding: 12px 40px;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 8px;
+    border-color: white;
+    border-width: 3px;
+    margin: auto;
+    border-style: solid;
+}
+
+div.button {
+    width: 300px;
+    margin: auto;
+    margin-left: 200px;
+    padding-top: 40px;
+}
+
+h1 {
+    font-family: 'Lora', serif;
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+div.showcase {
+    width: 100%;
+}
+
+div.flex-table {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    background-color: #D9DCD6;
+    border-top-left-radius: 2%;
+    border-top-right-radius: 2%;
+    border: 6px solid #bbb;
+}
+
+div.flex-left {
+    width: 400px;
+    margin: 0px;
+    padding: 80px;
+
+}
+
+img.showcase {
+    border-radius: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+p.quote {
+    color: #333;
+    font-style: italic;
+    text-align: center;
+}
+
+div.flex-right {
+    width: 40%;
+    margin: 0px;
+    padding: 80px;
+}
+
+ul.showcase {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0;   
+    border-left: 3px solid #2E4057;
+}
+
+ul.showcase li {
+    padding: 0px;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    list-style: none;
+    font-size: 20px;
+    font-weight: 600;
+}
