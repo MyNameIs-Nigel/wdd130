@@ -167,7 +167,7 @@ section.msg h2, section.msg p {
 div#bottom {
     width: 100%;
     background-color: #3EB5F0;
-    height: 1000px;
+    height: 800px;
 }
 
 footer {
@@ -192,4 +192,9 @@ footer a {
 .social {
     display: flex;
 
+}
+
+.content {
+    max-width: 1600px;
+    margin: auto;
 }
