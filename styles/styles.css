@@ -1,3 +1,119 @@
 img.img {
-    width:35%;
+    width:100%;
+}
+
+nav {
+    margin: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border-bottom: 2px solid #1E1E24;
+    background-color: #FE654F;
+}
+
+nav, header {
+    margin-top: 0;
+}
+
+body {
+    margin: 0;
+    background-color: #F7F0F5;
+}
+
+nav a {
+    padding: 20px 12px;
+    margin: 0px 4px;
+    background-color: #FE654F;
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    color: black;
+    justify-content: space-around;
+}    
+
+nav a:hover {
+    background-color: #F7F0F5;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    overflow: hidden;
+    z-index: 9999;
+}
+
+div#hero {
+    width: 90%;
+    margin: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding-top: 10%;
+    padding-bottom: 20%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../nigel.jpg");
+}
+
+div.hero-text {
+    width: 50%;
+    margin-left: 10%;
+}
+
+div h1, div h3 {
+    color: #F7F0F5;
+    margin: 0;
+
+}
+
+h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 4em;
+}
+
+h3 {
+    font-family: 'Lora', serif;
+    font-size: 1.5em;
+}
+
+a {
+    font-family: 'Bebas-Neue', sans-serif;
+}
+
+main { 
+    width: 90%;
+    margin: auto;   
+}
+
+#content {
+    background-color: #4E8098;
+    margin-top: 30px;
+
+}
+
+main {
+    background-color: #F7FFF7;
+    margin-top: 0;
+    border-top: 3px solid #1E1E24;  
+}
+
+main h1 {
+    color: #1E1E24;
+    text-align: center;
+    font-size: 3em;
+}
+
+div.grid {
+    display: flex;
+    width: 85%;
+    margin: auto;
+    justify-content: space-around;
+}
+
+div.panel {
+    width: 100%;
+    background-color: #EDAFB8;
+    padding: 20px;
+    text-align: center;
+    margin: 20px;
 }

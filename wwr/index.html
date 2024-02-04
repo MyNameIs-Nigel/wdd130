@@ -4,61 +4,71 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lora:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&family=Poppins:ital,wght@0,300;0,400;0,600;1,300;1,400;1,600&display=swap" rel="stylesheet">  
     <title>Whitewater Rafting Safety | Home</title>
 </head>
 <body>
     <header>
-        <a href="#"><img src="img/wws-logo.png" alt="cover image of rafting"></a>
         <nav>
-            <a href="#">Home</a>
-            <a href="#">Lorem</a>
-            <a href="#">Ipsum</a>
-            <a href="#">Dolar</a>
+            <a href="#"><img class="logo-img" src="img/wws-logo.png" alt="cover image of rafting"></a>  
+            <a href="#" class="button">Home</a>
+            <a href="#" class="button">Lorem</a>
+            <a href="#" class="button">Ipsum</a>
+            <a href="#" class="button">Dolar</a>
         </nav>
     </header>
     <div id="hero">
-        <div>
-            <img src="img/hero.jpg" alt="Lifebuoy in the Water">
-        </div>
         <section id="hero-text">
             <h1>Where Safety and Fun Co-exist</h1>
             <h4>Book a lesson today!</h4>
             <div class="button-box">
-                <a href="#contact">More Info</a>
+                <a href="#contact" class="button">More Info</a>
             </div>
         </section>
     </div>
     <main class="home-grid">
-        <section class="card-one">
-            <img src="img/single.jpg" alt="Solo Raft">
-            <img src="img/life-jacket.png" alt="Life Jacket Icon">
-            <h2>Learn to Help Yourself</h2>
-        </section>
-        <section class="card-two">
-            <img src="img/group-far.jpg" alt="Group On Raft Far">
-            <img src="img/life-ring.png" alt="Life Ring Icon">
-            <h2>Learn to Help the Group</h2>
-        </section>
-        <section class="card-three">
-            <img src="img/group-happy.jpg" alt="Group on Raft Happy">
-            <img src="img/buoy.png" alt="Buoy Icon">
-            <h2>Group Safety Leads to Great Experiences</h2>
-        </section>
-        <img src="img/group-trouble.jpg" class="msg-img" alt="Group On Raft in Trouble"> 
-        <section class="msg">            
-            <h2>Learn Safety Today</h2>
-            <p>More than just a course, an experience to learn how to safely have fun while White Water Rafting! In our course, we don't just teach you how to keep yourself safe, but others included.</p>
-            <a href="one.html" class="join">Become Safe</a>
-        </section>
+        <div id="grid">   
+            <section class="card-one card">
+                <img class="thm" src="img/single.jpg" alt="Solo Raft">
+                <img class="icon" src="img/life-jacket.png" alt="Life Jacket Icon">
+                <h2>Learn to Help Yourself</h2>
+            </section>
+            <section class="card-two card">
+                <img class="thm" src="img/group-far.jpg" alt="Group On Raft Far">
+                <img class="icon" src="img/life-ring.png" alt="Life Ring Icon">
+                <h2>Learn to Help the Group</h2>
+            </section>
+            <section class="card-three card">
+                <img class="thm" src="img/group-happy.jpg" alt="Group on Raft Happy">
+                <img class="icon" src="img/buoy.png" alt="Buoy Icon">
+                <h2>Group Safety Leads to Great Experiences</h2>
+            </section>
+        </div>
+        <div id="bottom">
+            <div id="message">
+                <img src="img/group-trouble.jpg" class="msg-img" alt="Group On Raft in Trouble"> 
+                <section class="msg">            
+                    <h2>Learn Safety Today</h2>
+                    <p>More than just a course, an experience to learn how to safely have fun while White Water Rafting! In our course, we don't just teach you how to keep yourself safe, but others included.</p>
+                    <a class="button-small" href="one.html" class="join">Become Safe</a>
+                </section>
+            </div>
+            <p>Hello</p>
+        </div>
     </main>
     <footer>
-        <p> Whitewater Safety &copy;2024 - Nigel Smith</p>
-        <p><a href="contact.html">Contact</a></p>
-        <p><a href="site-plan-rafting.html">Site Plan</a></p>
-        <div class="social">
-            <a href="https://facebook.com"><img src="images/facebook.png" alt="fb icon"></a>
-            <a href="https://twitter.com"><img src="images/twitter.png" alt="twitter icon"></a>
-            <a href="https://instagram.com"><img src="images/instagram.png" alt="instagram icon"></a>
+        <div>
+            <p> Whitewater Safety &copy;2024 - Nigel Smith</p>
+            <p><a href="contact.html">Contact</a></p>
+            <p><a href="site-plan-rafting.html">Site Plan</a></p>
+            <div class="social">
+                <a href="https://facebook.com"><img src="images/facebook.png" alt="fb icon"></a>
+                <a href="https://twitter.com"><img src="images/twitter.png" alt="twitter icon"></a>
+                <a href="https://instagram.com"><img src="images/instagram.png" alt="instagram icon"></a>
+            </div>
         </div>
     </footer>
 </body>
