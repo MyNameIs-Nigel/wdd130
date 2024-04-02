@@ -1,0 +1,40 @@
+section {
+    width: 50%;
+    border: 1px solid;
+  }
+  
+div.poem {
+    /* display: flex;
+    flex-direction: column; */
+    width: 60%;
+    margin: auto;
+}
+
+.l {
+    text-align: left;
+}
+
+.m {
+    text-align: center;
+}
+
+.r {
+    text-align: right;
+}
+
+.block1 {
+    margin: 0;
+}  
+
+.block2 {
+    margin: 0 auto;
+}
+
+.block3 {
+    margin: 0 0 0 auto;
+}
+
+.block4 {
+    margin: 0 auto;
+}
+
